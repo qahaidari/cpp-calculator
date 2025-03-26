@@ -40,3 +40,15 @@ Then in Visual Studio Code, make a `tasks.json` file with below content, go to `
 ```
 
 ## Description of the app
+This C++ calculator is a simple program designed to perform basic arithmetic operations. It is implemented using a class named `Calc`, which provides the following functionalities:
+
+- Constructor (`Calc()`): Initializes the calculator object.
+- Destructor (`~Calc()`): Cleans up resources when the calculator object is destroyed.
+- `welcome()`: Displays a welcome message to the user and prompts the user to choose an operation from the below list. Then based on the user selection, the app waits either for user input numbers or is terminated.
+  - `add`: Adds two numbers and returns the result.
+  - `subtract`: Subtracts the second number from the first and returns the result.
+  - `multiply`: Multiplies two numbers and returns the result.
+  - `divide`: Divides the first number by the second and returns the result. (Note: Division by zero is currently implemented in the app by showring a warning message and returning a zero.)
+  - `user_inputs`: Prompts the user to input two numbers, which are passed by reference.
+
+This calculator provides a simple interface for performing arithmetic operations and can be extended with additional functionality as needed. An extension to the app could be defining two different versions of calculator: a basic calculator and an advanced calculator with more advanced arithmetic operations, so that the user can choose his desired calculator.
