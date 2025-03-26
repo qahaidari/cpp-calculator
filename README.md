@@ -7,7 +7,7 @@ If you're on Windows, make sure you have compiler installed. Refer to below link
 
 [https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites](https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites)
 
-Then make a `tasks.json` file with below content, go to `main.cpp` file and click `Run C/C++ File`. Your executable file will be generated. Then you can simply run your app by `./main.exe`.
+Then in Visual Studio Code, make a `tasks.json` file with below content, go to `main.cpp` file and click `Run C/C++ File`. Your executable file will be generated. Then you can simply run your app by `./main.exe`.
 ```
 {
     "tasks": [
