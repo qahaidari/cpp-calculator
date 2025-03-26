@@ -44,7 +44,7 @@ This C++ calculator is a simple program designed to perform basic arithmetic ope
 
 - Constructor (`Calc()`): Initializes the calculator object.
 - Destructor (`~Calc()`): Cleans up resources when the calculator object is destroyed.
-- `welcome()`: Displays a welcome message to the user and prompts the user to choose an operation from the below list. Then based on the user selection, the app either either for user input numbers or is terminated.
+- `welcome()`: Displays a welcome message to the user and prompts the user to choose an operation from the below list. Then based on the user selection, the app either waits for user input numbers or is terminated.
   - `add`: Adds two numbers and returns the result.
   - `subtract`: Subtracts the second number from the first and returns the result.
   - `multiply`: Multiplies two numbers and returns the result.
